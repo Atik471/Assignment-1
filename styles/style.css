@@ -72,3 +72,35 @@ nav > button:hover {
 nav > p {
   font-size: 28px;
 }
+
+/* hero section */
+.hero {
+  /* min-width: 465px; */
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  padding: 25px 220px;
+  text-align: center;
+  margin: 0px auto;
+}
+.hero > h1 {
+  font-size: 48px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.hero > p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+.hero > button {
+  font-size: 20px;
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background: rgb(13, 19, 33);
+  transition: 0.2s all;
+  cursor: pointer;
+}
+.hero > button:hover{
+    background-color: black;
+}
