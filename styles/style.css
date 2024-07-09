@@ -51,6 +51,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 465px;
   margin: 50px 150px;
 }
 
@@ -64,9 +65,9 @@ nav > button {
   transition: 0.2s all;
   cursor: pointer;
 }
-nav > button:hover{
-    color: white;
-    background-color: black;
+nav > button:hover {
+  color: white;
+  background-color: black;
 }
 nav > p {
   font-size: 28px;
