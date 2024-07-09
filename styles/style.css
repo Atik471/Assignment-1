@@ -1,43 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: white;
 }
 
 /* Font classes */
 .azeret-mono-regular {
-    font-family: "Azeret Mono", monospace;
-    font-weight: 400;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 400;
 }
 .azeret-mono-medium {
-    font-family: "Azeret Mono", monospace;
-    font-weight: 500;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 500;
 }
 .azeret-mono-semibold {
-    font-family: "Azeret Mono", monospace;
-    font-weight: 600;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 600;
 }
 .azeret-mono-bold {
-    font-family: "Azeret Mono", monospace;
-    font-weight: 700;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 700;
 }
-.azeret-mono-bolder {
-    font-family: "Azeret Mono", monospace;
-    font-weight: 800;
+.azeret-mono-extrabold {
+  font-family: "Azeret Mono", monospace;
+  font-weight: 800;
 }
 
 /* colors */
-.black-color{
-    color: rgb(13, 19, 33);
+.black-color {
+  color: rgb(13, 19, 33);
 }
-.black-opa-color{
-    color: rgb(13, 19, 33);
-    opacity: 0.7;
+.black-opa-color {
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
 }
-.white-color{
-    color: rgb(255, 255, 255);
+.white-color {
+  color: rgb(255, 255, 255);
 }
-.white-opa-color{
-    color: rgba(255, 255, 255,0.7);
+.white-opa-color {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* nav bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 150px;
+}
+
+nav > button {
+  font-size: 20px;
+  padding: 17px 24px 17px 24px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  background-color: transparent;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+nav > button:hover{
+    color: white;
+    background-color: black;
+}
+nav > p {
+  font-size: 28px;
 }
