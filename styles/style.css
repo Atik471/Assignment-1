@@ -59,7 +59,7 @@ nav > button {
   font-size: 20px;
   line-height: 23px;
   padding: 17px 24px 17px 24px;
-  border: 1px solid rgb(13, 19, 33);
+  border: 2px solid rgba(13, 19, 33, 0.7);
   border-radius: 8px;
   opacity: 0.8;
   background-color: transparent;
@@ -80,6 +80,8 @@ nav > p {
   /* min-width: 465px; */
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 25px 220px;
   text-align: center;
   margin: 0px auto;
@@ -132,7 +134,7 @@ nav > p {
 }
 .inspiration > p {
   margin-bottom: 48px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
 }
 .inspiration > .video-section {
@@ -243,13 +245,13 @@ input[type="submit"]:hover {
   margin-bottom: 16px;
 }
 .card-content > p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   margin-bottom: 32px;
 }
 .card-content input[type="button"] {
   padding: 12px 20px 12px 20px;
-  border: 1px solid rgb(13, 19, 33);
+  border: 2px solid rgb(13, 19, 33);
   opacity: 0.7;
   font-size: 20px;
   background-color: white;
@@ -257,7 +259,7 @@ input[type="submit"]:hover {
 }
 .card-content input[type="button"]:hover{
   opacity: 1;
-  border: 2px solid rgb(13, 19, 33);
+  border: 3px solid rgb(13, 19, 33);
   box-shadow: 1px 1px 5px 1px rgba(13, 19, 33, 0.2);
 }
 .card-image {
@@ -275,6 +277,7 @@ input[type="submit"]:hover {
 }
 .reverse .card-content {
   margin-left: 16px;
+  width: 55%;
 }
 
 /* current target section */
