@@ -57,6 +57,7 @@ nav {
 
 nav > button {
   font-size: 20px;
+  line-height: 23px;
   padding: 17px 24px 17px 24px;
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
@@ -71,6 +72,7 @@ nav > button:hover {
 }
 nav > p {
   font-size: 28px;
+  line-height: 33px;
 }
 
 /* hero section */
@@ -84,6 +86,7 @@ nav > p {
 }
 .hero > h1 {
   font-size: 48px;
+  line-height: 68px;
   margin-bottom: 24px;
   margin-top: 32px;
 }
@@ -94,8 +97,10 @@ nav > p {
 }
 .hero > button {
   font-size: 20px;
+  line-height: 23px;
   width: 250px;
   height: 72px;
+  border: none;
   border-radius: 8px;
   margin-bottom: 16px;
   background: rgb(13, 19, 33);
@@ -104,6 +109,7 @@ nav > p {
 }
 .hero > button:hover {
   background-color: black;
+  box-shadow: 2px 2px 10px 3px rgba(13, 19, 33,0.7);
 }
 .hero a {
   text-decoration: none;
@@ -121,9 +127,12 @@ nav > p {
 }
 .inspiration > h2 {
   margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 37px;
 }
 .inspiration > p {
   margin-bottom: 48px;
+  font-size: 16px;
   line-height: 26px;
 }
 .inspiration > .video-section {
@@ -157,6 +166,7 @@ nav > p {
 }
 .support h2 {
   font-size: 32px;
+  line-height: 36px;
   margin-bottom: 20px;
 }
 .support p {
@@ -175,6 +185,7 @@ input[type="text"] {
   background: rgb(255, 255, 255);
   width: 550px;
   font-size: 16px;
+  line-height: 26px;
 }
 input[type="submit"] {
   padding: 17px 20px 17px 20px;
@@ -186,7 +197,8 @@ input[type="submit"] {
   transition: 0.2s all;
 }
 input[type="submit"]:hover {
-  background-color: rgb(214, 212, 212);
+  background-color: rgb(235, 233, 233);
+  color: black;
 }
 
 /* why web section */
@@ -240,6 +252,13 @@ input[type="submit"]:hover {
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
   font-size: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+.card-content input[type="button"]:hover{
+  opacity: 1;
+  border: 2px solid rgb(13, 19, 33);
+  box-shadow: 1px 1px 5px 1px rgba(13, 19, 33, 0.2);
 }
 .card-image {
   display: inline-block;
@@ -296,6 +315,10 @@ input[type="submit"]:hover {
 .skill-card a {
   font-size: 16px;
   line-height: 19px;
+  transition: 0.2s all;
+}
+.skill-card a:hover{
+  text-shadow: 4px 4px 24px rgba(60, 60, 61, 0.4);
 }
 .skill-card > img {
   width: 56px;
